@@ -34,10 +34,6 @@ B
 Statistika
 2
 B
-Etika Profesi
-2
-D
-
 ```
 
 ## Closures, higher-order functions, dan error handling (100–200 kata)
@@ -58,20 +54,21 @@ data mata kuliah lain yang sudah valid.
 
 ## Bukti tangkapan layar
 
-Ambil satu tangkapan layar terminal yang menampilkan sekurangnya satu input
-tidak valid, pesan bahwa data diabaikan, data valid lain, dan KHS yang tercetak.
-Simpan sebagai `screenshots/khs-input-invalid.png`, lalu pastikan file itu
-termasuk di repository sebelum dikumpulkan.
+### KHS dari data valid
 
-![Contoh input salah dan hasil KHS](screenshots/khs-input-invalid.png)
+Tangkapan layar menunjukkan tiga mata kuliah diterima, total 8 SKS, dan IP
+3,63 dengan predikat Dengan Pujian.
+
+![Contoh KHS dari input valid](screenshots/khs-valid.png)
+
+### Penanganan input nilai tidak valid
+
+Nilai huruf `Z` ditolak dengan pesan kesalahan, dan program mengabaikan data
+tersebut alih-alih berhenti.
+
+![Input nilai huruf tidak valid](screenshots/khs-input-invalid.png)
 
 ## Penggunaan AI
 
 AI digunakan sebagai bantuan untuk menyusun implementasi, kasus uji, dan draf
 README. Program diperiksa dengan `dart analyze` dan `dart test`.
-
-## Pengumpulan
-
-Buat repository GitHub publik bernama `pm-tugas-03-4243250005` dan unggah
-repository dengan sedikitnya tiga commit. Kirim tautan repository melalui LMS
-UNIMED sesuai instruksi pengumpulan.
